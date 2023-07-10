@@ -33,7 +33,6 @@ if(isset($_POST['Submit'])){
 
         $BMIOBJ = new Body();
         $BMI = $BMIOBJ->BMI_calculator();
-
 }
 
 if(isset($BMI)){
